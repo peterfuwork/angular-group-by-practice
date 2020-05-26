@@ -1,0 +1,111 @@
+<section class="row">
+  <!-- Expand All and Collapse All Buttons -->
+  <div
+    class="expand-all-section"
+    *ngIf="payload['section'] && payload['section'].length > 0"
+  >
+    <a class="expand-all-button" (click)="allExpandState = true">Expand All </a>
+    <a class="expand-all-button" (click)="allExpandState = false"
+      >Collapse All
+    </a>
+  </div>
+  <!-- add mat-accordion to open one panel at a time -->
+  <!-- <mat-accordion> -->
+  <div class="col-md-12" *ngFor="let box of payload['section']">
+    <mat-expansion-panel
+      class="accordion-panel"
+      [expanded]="allExpandState"
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false"
+    >
+      <mat-expansion-panel-header class="accordion-panel-heading">
+        {{ capitalizedLettersAndChangeUnderscoreWithDash(box.header) }}
+      </mat-expansion-panel-header>
+      <!-- groupByProperty pipe function allows user to convert payload to key and value pairs based on the child property, key is based on the group name and value is a array that contains grouped objects -->
+      <ng-container
+        *ngFor="
+          let paramDetail of box.paramList
+            | groupByProperty: 'paramDetail.detailObject.groupName'
+        "
+      >
+        <ng-template #Profiles>
+          <ng-container *ngFor="let field of paramDetail.value">
+            <ng-container *ngIf="field.detailObject">
+              <!-- type profile -->
+              <section
+                *ngIf="!field.type || field.type == 'profile'"
+                class="profile col-sm-3"
+              >
+                <h4>{{ field.name }}</h4>
+                <div>Gender: {{ field.gender }}</div>
+                <div>Age: {{ field.age }}</div>
+                <img class="profile-image" [src]="field.image" />
+              </section>
+              <!-- type profile group -->
+              <section
+                *ngIf="!field.type || field.type == 'profileGroup'"
+                class="profile"
+              >
+                <h5 class="col-xs-12">{{ field.detailObject?.label }}</h5>
+                <ng-container *ngFor="let obj of field.value; let i = index">
+                  <section class="col-sm-3">
+                    <ng-container
+                      *ngFor="let person of obj | keyvalue: keyDisplayAscOrder"
+                    >
+                      <!-- key is name -->
+                      <div *ngIf="person.key == 'name'">
+                        <h4>{{ person.value }}</h4>
+                      </div>
+                      <!-- key is not image and not name -->
+                      <div
+                        *ngIf="person.key != 'image' && person.key != 'name'"
+                      >
+                        <span>{{ person.key }}</span
+                        ><span
+                          style="vertical-align: super; font-size: 1.3rem;"
+                          >{{ i + 1 }}</span
+                        >: <span>{{ getVal(person.value) }}</span>
+                      </div>
+                      <!-- key is image -->
+                      <img
+                        *ngIf="person.key == 'image'"
+                        class="profile-image"
+                        [src]="person.value"
+                      />
+                    </ng-container>
+                  </section>
+                </ng-container>
+              </section>
+            </ng-container>
+          </ng-container>
+        </ng-template>
+        <ng-container
+          *ngIf="
+            !paramDetail.key ||
+            paramDetail.key == 'null' ||
+            paramDetail.key == 'undefined'
+          "
+        >
+          <ng-container *ngTemplateOutlet="Profiles"></ng-container>
+        </ng-container>
+        <!-- Sub Accordions -->
+        <mat-accordion *ngIf="paramDetail.key != 'undefined'">
+          <mat-expansion-panel class="inner-panel no-box-shadow">
+            <!-- Accordion Group Name -->
+            <mat-expansion-panel-header
+              class="border-group-divider"
+              [collapsedHeight]="'40px'"
+              [expandedHeight]="'40px'"
+            >
+              <!-- Display the object key as label -->
+              <h5 class="group-name-h5">{{ paramDetail.key }}</h5>
+            </mat-expansion-panel-header>
+            <!-- Looping through the grouped array(paramDetail.value) and display all the object values in each individual field -->
+            <ng-container *ngTemplateOutlet="Profiles"></ng-container>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </ng-container>
+    </mat-expansion-panel>
+  </div>
+  <!-- </mat-accordion> -->
+</section>

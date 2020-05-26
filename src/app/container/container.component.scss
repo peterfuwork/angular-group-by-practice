@@ -1,0 +1,21 @@
+.accordion-panel {
+  .group-name-h5 {
+    margin: 0;
+  }
+  .profile {
+    h4 {
+      font-weight: bold;
+    }
+
+    .profile-image {
+      margin: 1rem;
+      max-width: 100px;
+      max-height: 100px;
+    }
+  }
+}
+.expand-all-section {
+  .expand-all-button {
+    cursor: pointer;
+  }
+}

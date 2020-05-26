@@ -1,0 +1,9 @@
+// inner accordions
+::ng-deep .mat-accordion .mat-expansion-panel {
+  margin-bottom: 1rem !important;
+}
+
+// outter accordions
+::ng-deep .mat-expansion-panel.accordion-panel {
+  margin-bottom: 1rem !important;
+}
