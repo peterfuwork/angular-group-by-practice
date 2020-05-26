@@ -3,6 +3,12 @@
     margin: 0;
   }
   .profile {
+    @media (max-width: 767px) {
+      text-align: center;
+      margin: 0 auto;
+      max-width: 200px;
+    }
+
     h4 {
       font-weight: bold;
     }

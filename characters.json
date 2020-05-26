@@ -1,349 +1,466 @@
 {
-	"id": "a2fh8G",
-	"taskType": "characters",
-	"section": [
-		{
-			"header": "Kingdom1",
-			"paramList": [
-				{
-					"id": "001",
-					"gender": "male",
-					"header": "Kingdom1",
-					"name": "Son",
-					"age": "17",
-					"image": "https://www.dropbox.com/s/040sjghpt1av4zk/Sun.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Classroom R1",
-						"fieldDisplayOrder": 3
-					}
-				},
-				{
-					"id": "002",
-					"gender": "male",
-					"header": "Kingdom1",
-					"name": "Bo",
-					"age": "16",
-					"image": "https://www.dropbox.com/s/bso6rxklif568vg/Bo.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Classroom R1",
-						"fieldDisplayOrder": 2
-					}
-				},
-				{
-					"id": "003",
-					"gender": "female",
-					"header": "Kingdom1",
-					"name": "Kelly",
-					"age": "17",
-					"image": "https://www.dropbox.com/s/mhkdhlrvs6tdjhu/Kelly.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Classroom R1",
-						"fieldDisplayOrder": 4
-					}
-				},
-				{
-					"id": "004",
-					"gender": "male",
-					"header": "Kingdom1",
-					"name": "Remon",
-					"age": "18",
-					"image": "https://www.dropbox.com/s/8n2c1g9wmh1c8dh/Remon.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Classroom R1",
-						"fieldDisplayOrder": 1
-					}
-				},
-				{
-					"id": "005",
-					"gender": "female",
-					"header": "Kingdom1",
-					"name": "Vennissa",
-					"age": "18",
-					"image": "https://www.dropbox.com/s/x93iyr4u604pclg/Vennissa.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Classroom R2",
-						"fieldDisplayOrder": 4
-					}
-				},
-				{
-					"id": "006",
-					"gender": "female",
-					"header": "Kingdom1",
-					"name": "Fang",
-					"age": "18",
-					"image": "https://www.dropbox.com/s/02yy4l3tx1n36ux/Fang.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Classroom R2",
-						"fieldDisplayOrder": 3
-					}
-				},
-				{
-					"id": "007",
-					"gender": "male",
-					"header": "Kingdom1",
-					"name": "Cloak",
-					"age": "18",
-					"image": "https://www.dropbox.com/s/86cyi9pobqjds02/Cloak.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Classroom R2",
-						"fieldDisplayOrder": 1
-					}
-				},
-				{
-					"id": "008",
-					"gender": "female",
-					"header": "Kingdom1",
-					"name": "Crystal",
-					"age": "17",
-					"image": "https://www.dropbox.com/s/nozskdu817x1qph/Crystal.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Classroom R2",
-						"fieldDisplayOrder": 2
-					}
-				}
-			]
-		},
-		{
-			"header": "Outsider1",
-			"paramList": [
-				{
-					"id": "009",
-					"gender": "male",
-					"header": "Outsider1",
-					"name": "Kevin",
-					"age": "17",
-					"image": "https://www.dropbox.com/s/u9ofliewymr80t2/Kevin.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Ruler 3",
-						"fieldDisplayOrder": 2
-					}
-				},
-				{
-					"id": "010",
-					"gender": "male",
-					"header": "Outsider1",
-					"name": "Johnny",
-					"age": "17",
-					"image": "https://www.dropbox.com/s/es0ed6rbbqd02a1/Johnny.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Ruler 3",
-						"fieldDisplayOrder": 1
-					}
-				},
-				{
-					"id": "011",
-					"gender": "female",
-					"header": "Outsider1",
-					"name": "Natalie",
-					"age": "16",
-					"image": "https://www.dropbox.com/s/q45nyk3jcgl0n97/Nathalie.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Ruler 3",
-						"fieldDisplayOrder": 3
-					}
-				},
-				{
-					"id": "012",
-					"gender": "male",
-					"header": "Outsider1",
-					"name": "Mike",
-					"age": "16",
-					"image": "https://www.dropbox.com/s/nfh34fz5hc3cxy4/Mike.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Ray Gang",
-						"fieldDisplayOrder": 2
-					}
-				},
-				{
-					"id": "013",
-					"gender": "female",
-					"header": "Outsider1",
-					"name": "Wendy",
-					"age": "15",
-					"image": "https://www.dropbox.com/s/26g2h4cqfp3zx3u/Wendy.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Ray Gang",
-						"fieldDisplayOrder": 1
-					}
-				},
-				{
-					"id": "014",
-					"gender": "male",
-					"header": "Outsider1",
-					"name": "Tony",
-					"age": "18",
-					"image": "https://www.dropbox.com/s/y2vtfjt7ao145ca/Tony.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Ray Gang",
-						"fieldDisplayOrder": 4
-					}
-				},
-				{
-					"id": "015",
-					"gender": "female",
-					"header": "Outsider1",
-					"name": "Fatima",
-					"age": "17",
-					"image": "https://www.dropbox.com/s/ybx3uixg34mncu9/Fatima.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Ray Gang",
-						"fieldDisplayOrder": 3
-					}
-				}
-			]
-		},
-		{
-			"header": "Royal Family",
-			"paramList": [
-				{
-					"id": "016",
-					"gender": "female",
-					"header": "Royal Family",
-					"name": "Lisa",
-					"age": "17",
-					"image": "https://www.dropbox.com/s/2ley3orxko9bugx/Lisa.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Nevia Reign",
-						"fieldDisplayOrder": 2
-					}
-				},
-				{
-					"id": "017",
-					"gender": "female",
-					"header": "Royal Family",
-					"name": "Melissa",
-					"age": "18",
-					"image": "https://www.dropbox.com/s/vzwc04ijoyi6gy8/Melissa.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Nevia Reign",
-						"fieldDisplayOrder": 1
-					}
-				},
-				{
-					"id": "018",
-					"gender": "male",
-					"header": "Royal Family",
-					"name": "Leroy",
-					"age": "18",
-					"image": "https://www.dropbox.com/s/llx4qr8wdugotlq/Leroy.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Nevia Reign",
-						"fieldDisplayOrder": 3
-					}
-				},
-				{
-					"id": "019",
-					"gender": "male",
-					"header": "Royal Family",
-					"name": "Darcy",
-					"age": "18",
-					"image": "https://www.dropbox.com/s/b1ikcizqrxwzk4g/Darcy.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Nevia Reign",
-						"fieldDisplayOrder": 4
-					}
-				},
-				{
-					"id": "020",
-					"gender": "female",
-					"header": "Royal Family",
-					"name": "Monica",
-					"age": "18",
-					"image": "https://www.dropbox.com/s/4sxeo4lul6f1nwb/Monica.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "Nevia Reign",
-						"fieldDisplayOrder": 5
-					}
-				}
-			]
-		},
-		{
-			"header": "Revolutionist",
-			"paramList": [
-				{
-					"id": "021",
-					"gender": "female",
-					"header": "Revolutionist",
-					"name": "Shan",
-					"age": "17",
-					"image": "https://www.dropbox.com/s/lrr3kddunn23xim/Shan.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "R1",
-						"fieldDisplayOrder": 2
-					}
-				},
-				{
-					"id": "022",
-					"gender": "female",
-					"header": "Revolutionist",
-					"name": "Lian",
-					"age": "17",
-					"image": "https://www.dropbox.com/s/0zbjryi3fny1fyf/Lian.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "R1",
-						"fieldDisplayOrder": 1
-					}
-				},
-				{
-					"id": "023",
-					"header": "Revolutionist",
-					"type": "profileGroup",
-					"value": "[{\"gender\":\"male\",\"name\":\"Rock\",\"age\":\"16\",\"rank\":{\"rank_level\":\"C\",\"rank_number\":\"829\"},\"image\":\"https://www.dropbox.com/s/st4khg9lmpp5k96/Rock.png?raw=1\"},{\"gender\":\"male\",\"name\":\"Zack\",\"age\":\"16\",\"rank\":{\"rank_level\":\"B\",\"rank_number\":\"301\"},\"image\":\"https://www.dropbox.com/s/6w0s2kxyn8071zw/Zack.png?raw=1\"},{\"gender\":\"male\",\"name\":\"Beck\",\"age\":\"16\",\"rank\":{\"rank_level\":\"S\",\"rank_number\":\"917\"},\"image\":\"https://www.dropbox.com/s/lilkfaafrf8ys03/Beck.png?raw=1\"},{\"gender\":\"male\",\"name\":\"Hank\",\"age\":\"16\",\"rank\":{\"rank_level\":\"A\",\"rank_number\":\"455\"},\"image\":\"https://www.dropbox.com/s/k0xi12rcgan9dy4/Hank.png?raw=1\"}]",
-					"detailObject": {
-						"label": "R2 - Four Men Group",
-						"groupName": "R2",
-						"fieldDisplayOrder": 3
-					}
-				},
-				{
-					"id": "024",
-					"gender": "male",
-					"header": "Revolutionist",
-					"name": "Morgan",
-					"age": "18",
-					"image": "https://www.dropbox.com/s/jac1kbsfwgfcqqg/Morgan.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "R2",
-						"fieldDisplayOrder": 5
-					}
-				},
-				{
-					"id": "025",
-					"gender": "female",
-					"header": "Revolutionist",
-					"name": "Zang",
-					"age": "17",
-					"image": "https://www.dropbox.com/s/cmt6gf2rqs5bnk6/Zang.png?raw=1",
-					"type": "profile",
-					"detailObject": {
-						"groupName": "R1",
-						"fieldDisplayOrder": 4
-					}
-				}
-			]
-		}
-	]
+  "id": "a2fh8G",
+  "taskType": "characters",
+  "section": [
+    {
+      "header": "Kingdom1",
+      "paramList": [
+        {
+          "id": "001",
+          "gender": "male",
+          "header": "Kingdom1",
+          "name": "Son",
+          "age": "17",
+          "image": "https://www.dropbox.com/s/040sjghpt1av4zk/Sun.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Classroom R1",
+            "fieldDisplayOrder": 3
+          }
+        },
+        {
+          "id": "002",
+          "gender": "male",
+          "header": "Kingdom1",
+          "name": "Bo",
+          "age": "16",
+          "image": "https://www.dropbox.com/s/bso6rxklif568vg/Bo.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Classroom R1",
+            "fieldDisplayOrder": 2
+          }
+        },
+        {
+          "id": "003",
+          "gender": "female",
+          "header": "Kingdom1",
+          "name": "Kelly",
+          "age": "17",
+          "image": "https://www.dropbox.com/s/mhkdhlrvs6tdjhu/Kelly.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Classroom R1",
+            "fieldDisplayOrder": 4
+          }
+        },
+        {
+          "id": "004",
+          "gender": "male",
+          "header": "Kingdom1",
+          "name": "Remon",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/8n2c1g9wmh1c8dh/Remon.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Classroom R1",
+            "fieldDisplayOrder": 1
+          }
+        },
+        {
+          "id": "005",
+          "gender": "female",
+          "header": "Kingdom1",
+          "name": "Vennissa",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/x93iyr4u604pclg/Vennissa.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Classroom R2",
+            "fieldDisplayOrder": 4
+          }
+        },
+        {
+          "id": "006",
+          "gender": "female",
+          "header": "Kingdom1",
+          "name": "Fang",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/02yy4l3tx1n36ux/Fang.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Classroom R2",
+            "fieldDisplayOrder": 3
+          }
+        },
+        {
+          "id": "007",
+          "gender": "male",
+          "header": "Kingdom1",
+          "name": "Cloak",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/86cyi9pobqjds02/Cloak.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Classroom R2",
+            "fieldDisplayOrder": 1
+          }
+        },
+        {
+          "id": "008",
+          "gender": "female",
+          "header": "Kingdom1",
+          "name": "Crystal",
+          "age": "17",
+          "image": "https://www.dropbox.com/s/nozskdu817x1qph/Crystal.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Classroom R2",
+            "fieldDisplayOrder": 2
+          }
+        }
+      ]
+    },
+    {
+      "header": "Outsider1",
+      "paramList": [
+        {
+          "id": "009",
+          "gender": "male",
+          "header": "Outsider1",
+          "name": "Kevin",
+          "age": "17",
+          "image": "https://www.dropbox.com/s/u9ofliewymr80t2/Kevin.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Ruler 3",
+            "fieldDisplayOrder": 2
+          }
+        },
+        {
+          "id": "010",
+          "gender": "male",
+          "header": "Outsider1",
+          "name": "Johnny",
+          "age": "17",
+          "image": "https://www.dropbox.com/s/es0ed6rbbqd02a1/Johnny.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Ruler 3",
+            "fieldDisplayOrder": 1
+          }
+        },
+        {
+          "id": "011",
+          "gender": "female",
+          "header": "Outsider1",
+          "name": "Natalie",
+          "age": "16",
+          "image": "https://www.dropbox.com/s/q45nyk3jcgl0n97/Nathalie.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Ruler 3",
+            "fieldDisplayOrder": 3
+          }
+        },
+        {
+          "id": "012",
+          "gender": "male",
+          "header": "Outsider1",
+          "name": "Mike",
+          "age": "16",
+          "image": "https://www.dropbox.com/s/nfh34fz5hc3cxy4/Mike.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Ray Gang",
+            "fieldDisplayOrder": 2
+          }
+        },
+        {
+          "id": "013",
+          "gender": "female",
+          "header": "Outsider1",
+          "name": "Wendy",
+          "age": "15",
+          "image": "https://www.dropbox.com/s/26g2h4cqfp3zx3u/Wendy.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Ray Gang",
+            "fieldDisplayOrder": 1
+          }
+        },
+        {
+          "id": "014",
+          "gender": "male",
+          "header": "Outsider1",
+          "name": "Tony",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/y2vtfjt7ao145ca/Tony.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Ray Gang",
+            "fieldDisplayOrder": 5
+          }
+        },
+        {
+          "id": "015",
+          "gender": "female",
+          "header": "Outsider1",
+          "name": "Fatima",
+          "age": "17",
+          "image": "https://www.dropbox.com/s/ybx3uixg34mncu9/Fatima.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Ray Gang",
+            "fieldDisplayOrder": 4
+          }
+        },
+        {
+          "id": "016",
+          "gender": "female",
+          "header": "Outsider1",
+          "name": "Ealianna",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/tw1yjr32qrlqldt/Ealianna.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Ray Gang",
+            "fieldDisplayOrder": 3
+          }
+        },
+        {
+          "id": "017",
+          "gender": "male",
+          "header": "Outsider1",
+          "name": "Jim",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/s611hr46myq8grv/Jim.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Ray Gang",
+            "fieldDisplayOrder": 7
+          }
+        },
+        {
+          "id": "018",
+          "gender": "male",
+          "header": "Outsider1",
+          "name": "Dalton",
+          "age": "20",
+          "image": "https://www.dropbox.com/s/cwobya4mfflzb1o/Dalton.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Ray Gang",
+            "fieldDisplayOrder": 6
+          }
+        },
+        {
+          "id": "019",
+          "gender": "male",
+          "header": "Outsider1",
+          "name": "Hugo",
+          "age": "17",
+          "image": "https://www.dropbox.com/s/j8izf6lldy1smmw/Hugo.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Ray Gang",
+            "fieldDisplayOrder": 8
+          }
+        }
+      ]
+    },
+    {
+      "header": "Royal Family",
+      "paramList": [
+        {
+          "id": "020",
+          "gender": "female",
+          "header": "Royal Family",
+          "name": "Lisa",
+          "age": "17",
+          "image": "https://www.dropbox.com/s/2ley3orxko9bugx/Lisa.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Nevia Reign",
+            "fieldDisplayOrder": 2
+          }
+        },
+        {
+          "id": "021",
+          "gender": "female",
+          "header": "Royal Family",
+          "name": "Melissa",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/vzwc04ijoyi6gy8/Melissa.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Nevia Reign",
+            "fieldDisplayOrder": 1
+          }
+        },
+        {
+          "id": "022",
+          "gender": "male",
+          "header": "Royal Family",
+          "name": "Leroy",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/llx4qr8wdugotlq/Leroy.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Nevia Reign",
+            "fieldDisplayOrder": 3
+          }
+        },
+        {
+          "id": "023",
+          "gender": "male",
+          "header": "Royal Family",
+          "name": "Darcy",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/b1ikcizqrxwzk4g/Darcy.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Nevia Reign",
+            "fieldDisplayOrder": 4
+          }
+        },
+        {
+          "id": "024",
+          "gender": "female",
+          "header": "Royal Family",
+          "name": "Monica",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/4sxeo4lul6f1nwb/Monica.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Nevia Reign",
+            "fieldDisplayOrder": 5
+          }
+        },
+        {
+          "id": "025",
+          "gender": "female",
+          "header": "Royal Family",
+          "name": "Cindy",
+          "age": "16",
+          "image": "https://www.dropbox.com/s/w0glu55yk875c92/Cindy.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Forrest Reign",
+            "fieldDisplayOrder": 7
+          }
+        },
+        {
+          "id": "026",
+          "gender": "male",
+          "header": "Royal Family",
+          "name": "Brown",
+          "age": "19",
+          "image": "https://www.dropbox.com/s/crzfjr1u428wplh/Brown.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Forrest Reign",
+            "fieldDisplayOrder": 6
+          }
+        },
+        {
+          "id": "027",
+          "gender": "female",
+          "header": "Royal Family",
+          "name": "Ruby",
+          "age": "16",
+          "image": "https://www.dropbox.com/s/igkjsomukat3of9/Ruby.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Forrest Reign",
+            "fieldDisplayOrder": 8
+          }
+        },
+        {
+          "id": "028",
+          "gender": "male",
+          "header": "Royal Family",
+          "name": "Duke",
+          "age": "20",
+          "image": "https://www.dropbox.com/s/l2nzcudezuxnhvt/Duke.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "Forrest Reign",
+            "fieldDisplayOrder": 9
+          }
+        }
+      ]
+    },
+    {
+      "header": "Revolutionist",
+      "paramList": [
+        {
+          "id": "029",
+          "gender": "female",
+          "header": "Revolutionist",
+          "name": "Shan",
+          "age": "17",
+          "image": "https://www.dropbox.com/s/lrr3kddunn23xim/Shan.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "R1",
+            "fieldDisplayOrder": 2
+          }
+        },
+        {
+          "id": "030",
+          "gender": "female",
+          "header": "Revolutionist",
+          "name": "Lian",
+          "age": "17",
+          "image": "https://www.dropbox.com/s/0zbjryi3fny1fyf/Lian.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "R1",
+            "fieldDisplayOrder": 1
+          }
+        },
+        {
+          "id": "031",
+          "header": "Revolutionist",
+          "type": "profileGroup",
+          "value": "[{\"gender\":\"male\",\"name\":\"Rock\",\"age\":\"16\",\"rank\":{\"rank_level\":\"C\",\"rank_number\":\"829\"},\"image\":\"https://www.dropbox.com/s/st4khg9lmpp5k96/Rock.png?raw=1\"},{\"gender\":\"male\",\"name\":\"Zack\",\"age\":\"16\",\"rank\":{\"rank_level\":\"B\",\"rank_number\":\"301\"},\"image\":\"https://www.dropbox.com/s/6w0s2kxyn8071zw/Zack.png?raw=1\"},{\"gender\":\"male\",\"name\":\"Beck\",\"age\":\"16\",\"rank\":{\"rank_level\":\"S\",\"rank_number\":\"917\"},\"image\":\"https://www.dropbox.com/s/lilkfaafrf8ys03/Beck.png?raw=1\"},{\"gender\":\"male\",\"name\":\"Hank\",\"age\":\"16\",\"rank\":{\"rank_level\":\"A\",\"rank_number\":\"455\"},\"image\":\"https://www.dropbox.com/s/k0xi12rcgan9dy4/Hank.png?raw=1\"}]",
+          "detailObject": {
+            "label": "R2 - Four Men Group",
+            "groupName": "R2",
+            "fieldDisplayOrder": 3
+          }
+        },
+        {
+          "id": "032",
+          "gender": "male",
+          "header": "Revolutionist",
+          "name": "Morgan",
+          "age": "18",
+          "image": "https://www.dropbox.com/s/jac1kbsfwgfcqqg/Morgan.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "R2",
+            "fieldDisplayOrder": 5
+          }
+        },
+        {
+          "id": "033",
+          "gender": "female",
+          "header": "Revolutionist",
+          "name": "Zang",
+          "age": "17",
+          "image": "https://www.dropbox.com/s/cmt6gf2rqs5bnk6/Zang.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "R1",
+            "fieldDisplayOrder": 4
+          }
+        },
+        {
+          "id": "034",
+          "gender": "female",
+          "header": "Revolutionist",
+          "name": "Ai",
+          "age": "15",
+          "image": "https://www.dropbox.com/s/8mp01zxj6g2mo1p/Ai.png?raw=1",
+          "type": "profile",
+          "detailObject": {
+            "groupName": "R1",
+            "fieldDisplayOrder": 6
+          }
+        }
+      ]
+    }
+  ]
 }

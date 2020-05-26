@@ -5,7 +5,7 @@ import { HttpClient } from "@angular/common/http";
   providedIn: "root",
 })
 export class CharactersService {
-  apiURL: string = "https://api.jsonbin.io/b/5ecc241be91d1e45d1115084/9";
+  apiURL: string = "https://api.jsonbin.io/b/5ecc241be91d1e45d1115084/11";
 
   constructor(private httpClient: HttpClient) {}
 
